@@ -1,0 +1,33 @@
+#tabla{
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px black;
+    margin-top: 60px;
+    width: 1000px;
+    background: white;
+}
+.superior{
+    border: 1px solid  black ;
+}
+th{
+    border: 1px solid  black ;
+}
+#icono{
+    background-image: url("/public/img/icono.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px
+}
+body{
+   
+    background: url("/public/img/sesion.jpg");
+    background-size: cover;
+      
+   }
+   .lulu{
+    border: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+   }

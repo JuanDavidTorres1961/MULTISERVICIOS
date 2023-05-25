@@ -1,0 +1,27 @@
+create database multiServicios
+use  multiServicios
+create table usuario(
+correo varchar(150) primary key,
+nombres varchar(150),
+apellidos varchar(150),
+contraseña varchar(200)
+);
+create table profesional(
+correo varchar(150)  primary key,
+nombres varchar(150),
+apellidos varchar(150),
+contraseña varchar(200)
+);
+CREATE TABLE client_profesional (
+  fk_cliente VARCHAR(150),
+  fk_profesional VARCHAR(150),
+  CONSTRAINT fk_cliente FOREIGN KEY (fk_cliente) REFERENCES usuario(correo),
+  CONSTRAINT fk_profesional FOREIGN KEY (fk_profesional) REFERENCES profesional(correo),
+  PRIMARY KEY (fk_cliente, fk_profesional)
+);
+create table oficio(
+id int primary key,
+nombre varchar(250),
+fk_pro varchar (150),
+constraint fk_pro foreign key (fk_pro) references profesional(correo)
+);

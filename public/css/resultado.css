@@ -1,0 +1,11 @@
+body{
+    background-image: url("/public/img/alexa-williams-YwBX02K60A4-unsplash.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    }
+#titulo{
+    margin-top: 20%;
+    margin-left: 15%;
+    text-align: center;
+}
