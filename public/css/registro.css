@@ -5,12 +5,63 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+/*NAV*/
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a:hover{
+   color: rgba(0, 68, 255, 0.699);
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul{
+    display: contents;
+    gap: 20px;
+}
+
+
+
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 3.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*Registro*/
+
+.contenedorPadre {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/fondoRegistro.jpg  );
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 53%, 0.671), hsla(298, 43%, 44%, 0.671)), url();
+    background: linear-gradient(to right, hsla(300, 3%, 62%, 0.671), hsla(241, 42%, 32%, 0.671));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +70,7 @@ body {
 
 .container-form {
     width: 90%;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     transition:  all .5s ease-out;
@@ -40,10 +91,15 @@ body {
     padding: 1rem 0;
 }
 
+.message h2 span{
+    color: rgba(0, 68, 255, 0.699);
+}
+
+
 .message button {
     padding: 1rem;
     font-weight: 400;
-    background-color: #4a4aee;
+    background-color: rgb(0, 68, 255);
     border-radius: 2rem;
     border: none;
     outline: none;
@@ -55,20 +111,34 @@ body {
 }
 
 .message button:hover {
-    background-color: #6464f8;
+    background-color:hsla(300, 3%, 62%, 0.671);
+    
 }
 
 .formulario {
     width: 400px;
     padding: 1rem;
     margin: 2rem;
-    background-color: rgb(51, 51, 51, 0.602);
+    background-color: rgba(255, 255, 255, 0.116);
     text-align: center;
+    border-radius: 25px;
+}
+
+.formulario h2 span{
+    color:  rgb(0, 68, 255);
+}
+
+.cuenta-gratis span{
+    color:  rgb(0, 68, 255);
 }
 
 .create-account {
     padding: 2.7rem 0;
     font-size: 1.7rem;
+}
+
+.create-account span{
+    color: rgb(0, 68, 255);
 }
 
 .iconos {
@@ -126,7 +196,7 @@ body {
     margin-top: 3rem;
     font-size: .8rem;
     cursor: pointer;
-    color: #222;
+    color: #4a4aee;
 }
 
 .sign-in {

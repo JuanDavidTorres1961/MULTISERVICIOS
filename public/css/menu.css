@@ -23,7 +23,6 @@ a:hover{
 .navbar{
     width: 100%;
     height: 100px;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -50,7 +49,7 @@ a:hover{
     display: none;
 }
 
-.action_btn{
+/* .action_btn{
     background-color: rgba(255, 0, 106, 0.897);
     color: #fff;
     padding: 0.5rem 1rem;
@@ -70,7 +69,7 @@ a:hover{
 
 .action_btn:active{
     scale: 0.95;
-}
+} */
 
 
 /*MEDIA QUARIES*/
@@ -93,9 +92,9 @@ a:hover{
 header {
     width: 100%;
     height: 100vh;  
-    background: #bc4e9c;
+    background: #bc4e9c; 
     background: -webkit-linear-gradient(to right, hsla(0, 0%, 53%, 0.671), hsla(298, 59%, 26%, 0.671)), url(../img/portada.jpg);
-    background: linear-gradient(to right, hsla(330, 1%, 30%, 0.671), hsla(241, 42%, 32%, 0.671)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(330, 1%, 30%, 0.671), hsla(241, 42%, 32%, 0.671)), url(../img/portada.jpg); 
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -138,11 +137,11 @@ header .textos-header {
 }
 
 
-/* CLIENTES
+/*CLIENTES*/
 
 .contenedor{
     width: 100%;
-    height: 80vh;
+    height: 100%;
 }
 
 .contenedor-titulo{
@@ -167,14 +166,13 @@ header .textos-header {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 80%;
 }
 
 .cards .card {
     background: rgba(255, 0, 106, 0.897);
     display: flex;
     width: 20%;
-    height: 60vh;
+    height: 54vh;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -198,12 +196,12 @@ header .textos-header {
 .card.card>.contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
-} */
+} 
 
 
 /* SERVICIOS */
 
-/* .portafolio {
+ /* .portafolio {
     background: #f2f2f2;
     width: 100%;
     height: 110vh;
@@ -267,18 +265,17 @@ header .textos-header {
 
 .imagen-port:hover .hover-galeria {
     transform: scale(1);
-} */
+} */ 
 
 
 
 /*FOOTER*/
 
-/* footer{
+ footer{
     background: #ffffff;
     width: 100%;
-    height: 28%;
+    height: 35%;
     font-family: "Open Sans";
-    padding-top: 40px;
     color: #000000;
     position: absolute;
     padding: 0;
@@ -351,6 +348,6 @@ header .textos-header {
 .footer-bottom span{
     text-transform: uppercase;
     font-weight: 200;
-} */
+} 
 
 

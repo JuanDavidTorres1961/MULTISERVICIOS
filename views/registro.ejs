@@ -12,17 +12,27 @@
 </head>
 
 
-    <body>
+<body>
+    <section class="contenedorPadre">
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">start</a></li>
+            <li><a href="/interfaz-registro-profesional">Register as a professional</a></li>
+            
+        </ul> 
+    </nav>
+        
         <div class="container-form sign-up">
             <div class="welcome-back">
                 <div class="message">
-                    <h2>Bienvenido a MultiServicios</h2>
+                    <h2>Bienvenido a <span>MultiServicios</span></h2>
                     <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
-                    <button class="sign-up-btn">Iniciar Sesion</button>
+                    <button class="sign-up-btn">Iniciar Sesion Como Usuario</button>
                 </div>
             </div>
             <form class="formulario">
-                <h2 class="create-account">Crear una cuenta</h2>
+                <h2 class="create-account">Registro <span>Usuario</span></h2>
                 <div class="iconos">
                     <div class="border-icon">
                         <i class='bx bxl-instagram'></i>
@@ -34,10 +44,11 @@
                         <i class='bx bxl-facebook-circle' ></i>
                     </div>
                 </div>
-                <p class="cuenta-gratis">Crear una cuenta gratis</p>
+                <p class="cuenta-gratis">Crea una  <span>cuenta gratis</span></p>
                 <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Contraseña">
+                <input type="email" placeholder="Email">  
+                <input type="password" placeholder="Contraseña">  
+                <input type="tel" placeholder="Telefono">
                 <input type="button" value="Registrarse">
             </form>
         </div>
@@ -62,14 +73,15 @@
             </form>
             <div class="welcome-back">
                 <div class="message">
-                    <h2>Bienvenido de nuevo</h2>
+                    <h2>Bienvenido  <span> de nuevo</span></h2>
                     <p>Si aun no tienes una cuenta por favor registrese aqui</p>
                     <button class="sign-in-btn">Registrarse</button>
-                </div>
+                </div>  
             </div>
-        </div>
+            </div>
+    </section>
         
-    </body>
+</body>
         
     <script>
         document.addEventListener('DOMContentLoaded', () => {
